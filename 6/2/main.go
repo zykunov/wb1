@@ -3,8 +3,6 @@ package main
 import "fmt"
 
 // закрытие канала через метод close
-
-// в
 func Generator() chan int {
 	ch := make(chan int)
 	go func() {

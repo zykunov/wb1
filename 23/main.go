@@ -9,8 +9,6 @@ func main() {
 
 	fastDelete(arr, i)
 
-	slowDelete(arr, i)
-
 }
 
 func fastDelete(arr []string, i int) {
